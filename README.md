@@ -1,2 +1,2 @@
-# velogeek_-training_project
+# velogeek_training_project
 project completed during training
