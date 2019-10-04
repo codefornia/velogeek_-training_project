@@ -1,0 +1,228 @@
+body {
+    font-family: "PT Sans", "Arial", serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+button {
+    width: 125px;
+    height: 35px;
+    border: none;
+    border-radius: 40px;
+    background: #e1f2ee;
+    color: #1ECD97;
+    font-size: 18px;
+    border: 2px solid #1ECD97;
+}
+button:hover {
+    background: #1ECD97;
+    color: white;
+}
+
+button:active {
+    background: #1c9c78;
+    color: white;
+    border: 2px solid #1c9c78;
+}
+
+.header {
+    height: 100px;
+    background: url("../img/pattern.jpg");
+    background-size: 300px 300px;
+}
+
+.logo {
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.menu li {
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+.menu {
+    display: flex;
+    float: right;
+}
+
+.menu a {
+    font-size: 18px;
+    color: #006561;
+    font-family: "PT Sans", "Arial", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.menu li a:hover {
+    color: red;
+}
+
+.menu li a:active {
+    background-color: white;
+    padding: 4px;
+}
+
+form {
+    width: 240px;
+    text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    border: 1px solid #5FD3B3;
+    background: transparent;
+    padding: 1px 4px;
+    color: #1F7D63;
+    font-family: "PT Sans", "Arial", serif;
+}
+
+input[type="text"],
+textarea {
+    text-transform: capitalize;
+}
+
+input[type="email"]:focus {
+    color: red;
+    background-color: #e1f2ee;
+}
+
+h1 {
+    color: #401f7d;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #1c9c78;
+    font-size: 24px;
+}
+
+a{
+    color: #1c9c78;
+}
+
+a h2 {
+    margin-top: 10px;
+}
+
+}
+h2, h3, p {
+    padding-left: 5px;
+}
+.center{
+    text-align: center;
+}
+a img {
+    border: 2px solid #5FD3B3;
+}
+
+a img:hover {
+    border: none;
+    padding: 2px;
+}
+
+
+.product-description + p {
+    text-align: left;
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.abb-description + p {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.characteristics + ul {
+    font-size: 16px;
+    font-weight: 500;
+    list-style-type: square;
+    color: #006561;
+}
+
+.abb-description-all {
+    width: 100%;
+    height: 100%;
+}
+
+.abb-description-left {
+    float: left;
+}
+
+.abb-description-right {
+    float: right;
+    width: 60%;
+}
+
+.product-description-all {
+    clear: both;
+}
+
+.abb-description,
+.product-description,
+.characteristics {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.table td {
+    border: 1px solid #1c9c78;
+    padding: 5px 10px 5px 10px;
+}
+
+.table {
+    border: 1px solid #1c9c78;
+    border-collapse: collapse;
+}
+
+.table td[colspan] {
+    background-color: #e1f2ee;
+    font-weight: 600;
+}
+.products-all{
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    width: 1200px;
+    height:400px;
+
+}
+.product{
+    width: 33%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+.product h2{
+    display: inline;
+}
+
+.footer {
+    background-color: #e1f2ee;
+    height: 45px;
+    float: bottom;
+}
+
+.copyright {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
