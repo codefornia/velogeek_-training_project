@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header">
+            <div class="logo"><img src="img/logo.svg" alt="лого" width="200"></div>
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <h1>Напишите нам</h1>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Форма обратной связи:</legend>
+                <label for="name-field">Имя:</label><br>
+                <input id="name-field" type="text" placeholder="Царь" size="30"><br>
+                <label for="tel-field">Телефон:</label><br>
+                <input id="tel-field" type="tel" placeholder="8-999-999-999" size="30"><br>
+                <label for="mail-field">E-mail:</label><br>
+                <input id="mail-field" type="email" placeholder="me@exanple.ru" size="30"><br>
+                <label for="comment-field" size="30">Задайте свой вопрос?</label><br>
+                <textarea id="comment-field" name="comment" rows="4" cols="31"
+                          placeholder="Чё по чём? Доставка есть? А если найду?"></textarea><br>
+                <input type="submit" value="Отправить">
+                <input type="reset" value="Сбросить"><br>
+                <input type="checkbox" checked id="privacy-field" required> <label
+                    for="privacy-field" style="font-size:8px;">Я согласен на обработку персональных данных</label><br>
+            </fieldset>
+        </form>
+       <div class="map"
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abbb222e295680751a053902fcc7b2dc80a9ff83d898e4090d34857f0ed02d75f&amp;source=constructor"
+                width="100%" height="374px" frameborder="0"></iframe></div>
+        <h1>Адрес</h1>
+        <p><b>Телефон:</b> 8-900-200-600<br>
+            <b>Адрес:</b> пр, Кузнецкий, 33, г. Кемерово<br>
+            <b>E-mail:</b> info@velogeek.ru</p>
+    </div>
+</main>
+<footer>
+    <div class="container">
+        <div class="footer">
+            <p class="copyright">&#169;Все права защищены</p>
+        </div>
+</footer>
+</body>
+</html>
